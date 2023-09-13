@@ -16,9 +16,9 @@ try:
     dir_path = os.path.dirname(os.path.realpath(__file__))
     try:
         # Change these variables to point to the correct folder (Release/x64 etc.)
-        sys.path.append(r'C:\Users\15308\Downloads\openpose1.7.0\bin\python')
-        os.environ['PATH']  = os.environ['PATH'] + r';C:\Users\15308\Downloads\openpose1.7.0\bin\python;C:\Users' \
-                                                   r'\15308\Downloads\openpose1.7.0\bin'
+        sys.path.append(r'input your path')
+        os.environ['PATH']  = os.environ['PATH'] + r';input your path' \
+                                                   r'\input your path'
         import pyopenpose as op
     except ImportError as e:
         print('Error: OpenPose library could not be found. Did you enable `BUILD_PYTHON` in CMake and have this '
@@ -54,8 +54,8 @@ try:
 
         # Flags
         parser = argparse.ArgumentParser()
-        parser.add_argument("--video_path1", default="../examples/media/video1.mp4", help="Path to the first video file")
-        parser.add_argument("--video_path2", default="../examples/media/video1.mp4", help="Path to the second video file")
+        parser.add_argument("--video_path1", default="../input your path", help="Path to the first video file")
+        parser.add_argument("--video_path2", default="../input your path", help="Path to the second video file")
         args = parser.parse_args()
 
         # Custom Params (refer to include/openpose/flags.hpp for more parameters)
