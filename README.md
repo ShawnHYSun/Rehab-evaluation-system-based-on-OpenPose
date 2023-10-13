@@ -1,4 +1,3 @@
-**Method**  
 In the context of active rehabilitation training, trainees should follow a set of standard rehabilitation exercises prescribed by a physician. Evaluating the training outcomes accurately involves real-time collection of the trainee's rehabilitation movements and comparing them with the standard exercises. Designing an effective algorithm for comparing the similarity of motion sequences is crucial in providing a reasonable assessment of the rehabilitation exercise proficiency. This section will elaborate on the algorithm for motion flow similarity comparison.  
   
 **OpenPose**  
