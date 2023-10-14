@@ -1,5 +1,7 @@
-# Author: Haoyuan Sun|Shawn - Research Assistant at ECE department in University of Florida, Gainesville, FL
+# Author: Haoyuan Sun|Shawn
+# Date: 08/19/2023
 
+# import the necessary libraries
 import sys
 import cv2
 import os
